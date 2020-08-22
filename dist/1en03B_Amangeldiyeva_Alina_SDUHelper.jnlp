@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="1en03B_Amangeldiyeva_Alina_SDUHelper.jnlp">
+  <information>
+    <title>1en03B_Amangeldiyeva_Alina_SDUHelper</title>
+    <vendor>alina</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="8.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="1en03B_Amangeldiyeva_Alina_SDUHelper.jar" size="4009037" download="eager" />
+    <jar href="lib/jfoenix.jar" size="2365385" download="eager" />
+    <jar href="lib/sqlite-jdbc-3.16.1.jar" size="6161579" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="1en03B_Amangeldiyeva_Alina_SDUHelper" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="helper.Main"  name="1en03B_Amangeldiyeva_Alina_SDUHelper" />
+  <update check="always"/>
+</jnlp>

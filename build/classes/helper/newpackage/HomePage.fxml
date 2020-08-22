@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="6.0" layoutY="7.0" prefHeight="386.0" prefWidth="120.0" style="-fx-background-color: lightyellow;">
+         <children>
+            <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Home Page" textFill="#171616" />
+            <Button alignment="CENTER" layoutX="14.0" layoutY="48.0" mnemonicParsing="false" text="Calculator" />
+            <Button layoutX="14.0" layoutY="84.0" mnemonicParsing="false" text="Tips" />
+            <Button layoutX="11.0" layoutY="116.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="Diagnostic" />
+            <Button layoutX="11.0" layoutY="149.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="58.0" text="Diary" />
+         </children>
+      </Pane>
+      <Pane layoutX="129.0" prefHeight="400.0" prefWidth="471.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../w256h2561348673504budymsnnoir.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
